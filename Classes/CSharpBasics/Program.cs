@@ -45,20 +45,3 @@ using System.Linq;
 //         Console.WriteLine($"{p.ID}\t{p.Name}\t{p.Sex}\t{p.Age}\t{p.Height}\t{p.Weight}\t{p.Team}\t{p.NOC}\t{p.Games}\t{p.Year}\t{p.Season}\t{p.City}\t{p.Sport}\t{p.Event}\t{p.Medal}");
 //     }
 // }
-
-
-// List<Play> player = new(){
-//     new Play(){ Name = "Ram",Age = "Football",Sub=1},
-//     new Play(){ Name = "Shyam",Age ="Football" ,Sub=2},
-//     new Play(){ Name = "Shyam",Age ="Football" ,Sub=3},
-//     new Play(){ Name = "Shyam",Age ="batminton" ,Sub=4},
-//     new Play(){ Name = "Shyam",Age ="batminton",Sub=5}
-// };
-// var m= player.Where(x=>x.Name=="Shyam").OrderBy(x=>x.Age).GroupBy(x=>x.Age);
-// // Console.WriteLine(m);
-// foreach(var y in m){
-//     foreach(Play p in y){
-//         Console.WriteLine($"{p.Name}\t{p.Age}\t{p.Sub}");
-//     }
-    
-// }
